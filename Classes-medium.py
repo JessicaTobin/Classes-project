@@ -1,7 +1,7 @@
 from time import sleep
 class Monster:   #makes a class called Mon
     #stats
-    health = 10
+    health = 10  
     stamina = 15
 
     #things it can do
@@ -18,7 +18,7 @@ class Monster:   #makes a class called Mon
         print("Stamina is now " + str(self.stamina))
 
 
-
+#the monsters that appear including player so I could show the health of the player
 you = Monster()
 egg = Monster()
 soup = Monster()
@@ -71,6 +71,41 @@ else:
     
     
     
+    #if they chose sword:
+    #The monster Egg appears
+#If your stamina runs out you cannot attack
+#This computer will tell you your stamina and health
+#Choose your attack: Sword or Punchsword
+#You hit the monster with a sword
+#Egg says:
+#Health is now 8
+#You loose stamina
+#Computer says:
+#Stamina is now 13
     
-    
-    
+    #if they choose punch:
+    #this part actually doesnt work but I can't figure out why. It just shows the response for sword
+    #the resposnse should look like:
+    #The monster Egg appears
+#If your stamina runs out you cannot attack
+#This computer will tell you your stamina and health
+#Choose your attack: Sword or Punchpunch
+#You attempt to punch the monster but fail
+#Egg attacks you
+#You loose health
+#Computer says:
+#Health is now 8
+
+
+    #if they type anything else:
+    #again doesnt work
+    #should look like this:    
+    #The monster Egg appears
+#If your stamina runs out you cannot attack
+#This computer will tell you your stamina and health
+#Choose your attack: Sword or Punchegg
+#You try something not offered and fail
+#Egg attcks you with a critical hit
+#You have lost all your health
+#Health is now 0
+#GAME OVER
